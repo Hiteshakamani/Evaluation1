@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="E:\Cybercom internship\Evaluation test 1\Register\Register.css">
+  <script src="E:\Cybercom internship\Evaluation test 1\Register\Register.js"></script>
+</head>
+
+<body>
+  <center>
+    <div id="container">
+      <div class="alert alert-success" id="alert" role="alert"></div>
+      <h2><b>Registration</b></h2>
+      <form action="">
+        <input type="text" id="name" placeholder="Name" name="name"><br><br>
+        <input type="email" id="email" placeholder="Email" name="email"><br><br>
+        <input type="password" id="password" placeholder="Password" name="password"><br><br>
+        <input type="password" id="confirmpassword" placeholder="Confirm Password" name="confirm_password"><br><br>
+        <select id="city" aria-placeholder="Select City">
+          <option value="none" selected disabled hidden>Select City</option>
+          <option value="ahmedabad">Ahmedabad</option>
+          <option value="Surat">Surat</option>
+          <option value="Junagadh">Junagadh</option>
+          <option value="Bhavnagar">Bhavnagar</option>
+          <option value="Gandhinagar">Gandhinagar</option>
+          <option value="Surendranagar">Surendranagar</option>
+        </select>
+
+        <select id="state" aria-placeholder="Select State">
+          <option value="none" selected disabled hidden>Select state</option>
+          <option value="Gujrat">Gujrat </option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Andhrapradesh">Andhrapradesh</option>
+          
+        </select>
+        <br>
+        <input type="checkbox" id="checked">&nbsp;Terms & Conditions <br>
+        <button id="register" onclick="handleSubmit()"> REGISTER NOW </button><br><br>
+  </center>
+
+</body>
+
+</html>
+
+
+

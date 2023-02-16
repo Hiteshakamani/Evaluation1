@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Set the columns to display side by side */
+  .container {
+    display: flex;
+  }
+
+  /* Set the width of the columns */
+  .column1 {
+    width: 15%;
+    padding: 25px;
+    background-color: #be4e08;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  h3 {
+    color: #1b1818;
+  }
+
+  .column2 {
+
+    width: 85%;
+    margin-left: 15%;
+
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    color: #f9f6f6;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    background-color: #f4aa50;
+    color: #fff;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  .main {
+    margin: 35px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 32%;
+    padding: 0 10px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+    width: 100%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }

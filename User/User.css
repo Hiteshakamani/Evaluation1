@@ -1,0 +1,78 @@
+.main {
+    margin: 35px;
+}
+
+.button {
+    float: right;
+    margin-right: 35px;
+
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+input[type=date] {
+    width: 21%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+  }
+  .column1 {
+    width: 15%;
+    padding: 25px;
+    background-color: #be4e08;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    color: #f9f6f6;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    background-color: #f4aa50;
+    color: #fff;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+  .column2 {
+
+    width: 85%;
+    margin-left: 15%;
+  }

@@ -1,0 +1,38 @@
+input[type=email],
+input[type=password],
+[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+select[id=city],
+select[id=state] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #f7bb24;
+  color: rgb(29, 27, 27);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid;
+  cursor: pointer;
+  font-size: medium;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+#container {
+  padding: 16px;
+  width: 400px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+}
